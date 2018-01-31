@@ -30,6 +30,7 @@ h2{
     
     width:200px;
     
+    
     color:#fff;
     text-align: center;
 
@@ -47,21 +48,31 @@ li {
 a{
 
     color:gray;
+    text-decoration: none;
     
-
 }
+
 
 .topnav{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display:block;
-    color: gray;
-    text-decoration: none;
+    margin: 0 20px 0px 0px;
+    padding: 0;    
+
 }
 
 
+a:visited {
+color:#4aaaa5;
+
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E89F0C;
+    background-color: transparent;
+    text-decoration: none;
+}
 
 .wrapper{
    
@@ -253,7 +264,9 @@ float: right;
     width:270px;
     background-color: #fff;
     margin: 20px 0px 0px 10px;
-    
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
     
     
     
@@ -267,12 +280,47 @@ float: right;
     margin: 0px;
 
 }
-.small{
+.small1{
 
     width:50px;
     height:50px;
     padding: 10px;
-   
+    
+
+}
+
+.small1:hover{
+
+    margin-top: 2px;
+
+}
+
+.small2{
+
+    width:50px;
+    height:50px;
+    padding: 10px;
+    
+
+}
+
+.small2:hover{
+
+    margin-top: 2px;
+
+}
+.small3{
+
+    width:50px;
+    height:50px;
+    padding: 10px;
+    
+
+}
+
+.small3:hover{
+
+    margin-top: 2px;
 
 }
 #icons{
