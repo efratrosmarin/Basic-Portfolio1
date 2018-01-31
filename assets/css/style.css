@@ -22,7 +22,9 @@ body{
     
 h2{
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    
     background-color: #4aaaa5;
     position:absolute;
     padding:20px;
@@ -123,7 +125,7 @@ button{
 
 .games1{
     position: absolute;
-    top:180px;
+    top:175px;
     left: 30px;
     z-index: +1;
         background-color: #4aaaa5;
@@ -131,7 +133,7 @@ button{
         height:40px;
         width: 150px;
         color: #fff;
-        font-size: 16px;
+        font-size: 14px;
         margin:20px 0px 20px 20px;
         padding: 20px 0px 0px 0px;
     }
@@ -154,7 +156,7 @@ button{
         height:40px;
         width: 150px;
         color: #fff;
-        font-size: 16px;
+        font-size: 14px;
         margin:20px 0px 20px 20px;
         padding: 20px 0px 0px 0px;
     
@@ -178,7 +180,7 @@ button{
         height:40px;
         width: 150px;
         color: #fff;
-        font-size: 16px;
+        font-size: 14px;
         margin:20px 0px 20px 20px;
         padding: 20px 0px 0px 0px;
     
@@ -202,7 +204,7 @@ button{
         height:40px;
         width: 150px;
         color: #fff;
-        font-size: 16px;
+        font-size: 14px;
         margin:20px 0px 20px 20px;
         padding: 20px 0px 0px 0px;
     
@@ -219,7 +221,7 @@ button{
 .games5{
     float: right;
     position: relative;
-    top:-565px;
+    top:-570px;
     left: -120px;
     z-index: +1;
         background-color: #4aaaa5;
@@ -227,7 +229,7 @@ button{
         height:40px;
         width: 150px;
         color: #fff;
-        font-size: 16px;
+        font-size: 14px;
         margin:20px 0px 20px 20px;
         padding: 20px 0px 0px 0px;
     
@@ -240,7 +242,6 @@ button{
 
     
 }
-
 
 
 
