@@ -1,16 +1,17 @@
+
 body{
     
     font-family: Arial, Helvetica, sans-serif;
     
     margin:0 auto 0 auto;
     width:960px;
-    background-color: beige;
+    background-color: rgb(235, 235, 235);
     
 }
 
    .container{
 
-    border: .5px solid rgb(179, 179, 179);
+    /* border: .5px solid rgb(179, 179, 179); */
     padding:0px;
     width:960px;
     margin:0 auto;
@@ -64,8 +65,8 @@ a{
    
 
     width: 650px;
-    clear:both;
-    margin:20px 0px 0px 0px;
+    float:left;
+    margin:20px 0px 20px 0px;
     background-color: rgb(255, 255, 255);
     position: relative;
     
@@ -79,6 +80,75 @@ padding: 30px;
 
 }
 
+hr {
+
+    width:80%;
+}
+
+form{
+
+    margin:20px;
+}
+
+input{
+
+    width: 520px;
+    height: 25px;
+}
+
+button{
+
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    margin:0px 0px 20px 20px;
+}
+
+.games1{
+position: absolute;
+    background-color: #4aaaa5;
+    text-align: center; 
+    height:40px;
+    width: 150px;
+    color: #fff;
+    font-size: 16px;
+    margin:20px 0px 20px 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+/* .games{
+
+    background-color: #4aaaa5;
+    text-align: center; 
+    height:40px;
+    width: 150px;
+    color: #fff;
+    font-size: 16px;
+    margin:20px 0px 20px 20px;
+    padding: 20px 0px 0px 0px;
+    
+}
+
+
+/* 
+/* .gamepic{
+
+    margin:20px; */ 
+
+ */
+
+.gamepic1{
+
+    position: relative;
+    margin: 20px;
+
+
+
+}
+
 #picture{
 
     margin:20px;
@@ -89,15 +159,17 @@ padding: 30px;
 #AboutMe{
 
     margin:20px;
+    padding:0px 0px 10px 0px;
 }
 
 .container2{
-position: absolute;
+float: right;
     width:270px;
     background-color: #fff;
+    margin: 20px 0px 0px 10px;
     
-    top: 90px;
-    right: 190px;
+    
+    
     
 
 }
@@ -106,21 +178,33 @@ position: absolute;
 
 #connect{
     text-align: center;
+    margin: 0px;
+
 }
 .small{
 
     width:50px;
     height:50px;
+    padding: 10px;
    
 
 }
 #icons{
 
     text-align: center;
+    margin: 5px;
+
 }
 
+.greenline{
 
-   
+    background-color: green;
+    border: #4aaaa5;
+    
+  
+
+}
+
 .footer{
 background-color: rgb(99, 97, 97);
     clear:both;
@@ -128,7 +212,7 @@ background-color: rgb(99, 97, 97);
     color:#fff;
     text-align: center;
     font-size: 12px;
-    
+    border-top: 7px solid #4aaaa5;
 
 
 
